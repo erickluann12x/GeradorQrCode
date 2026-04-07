@@ -15,6 +15,7 @@ public class QrCodeController {
 
     @PostMapping
     public ResponseEntity<QrCodeGenerateResponse> generate(@RequestBody QrCodeGenerateRequest request){
+
         return null;
     }
 }
