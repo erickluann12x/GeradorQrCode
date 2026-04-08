@@ -37,3 +37,4 @@ application-*.local.properties
 
 # Aplication.properties
 application.properties
+**/application.properties
