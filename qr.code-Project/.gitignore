@@ -31,3 +31,39 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+
+# AWS CLI e credenciais
+.aws/
+*.awscredentials
+aws.env
+application-aws.properties
+
+# Secrets em geral
+secrets.json
+secrets.yml
+credentials.json
+*.key
+*.pem
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Java / Maven / Spring Boot
+*.class
+*.log
+logs/
+application-local.properties
+application-*.local.properties
+
+# Arquivos temporários
+*.tmp
+*.swp
+*~
+
+# Aplication.properties
+application.properties
+**/application.properties
