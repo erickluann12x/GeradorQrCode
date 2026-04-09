@@ -15,4 +15,3 @@ ENV AWS_REGION=us-east-1
 ENV AWS_S3_BUCKET=storage-qrcode
 
 ENTRYPOINT [ "java", "-jar", "app.jar"]
-
